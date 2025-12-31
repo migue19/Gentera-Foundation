@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F2C53FDB2F057D9500BAAEFC /* Gentera_Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C53FCF2F057D9500BAAEFC /* Gentera_Foundation.framework */; };
+		F2C540C52F059D2900BAAEFC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F2C540C42F059D2900BAAEFC /* LICENSE */; };
+		F2C541972F059DEA00BAAEFC /* Gentera-Foundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F2C541962F059DEA00BAAEFC /* Gentera-Foundation.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		F2C53FCF2F057D9500BAAEFC /* Gentera_Foundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gentera_Foundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C53FDA2F057D9500BAAEFC /* Gentera-FoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gentera-FoundationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C540C42F059D2900BAAEFC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2C541962F059DEA00BAAEFC /* Gentera-Foundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gentera-Foundation.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,9 +64,11 @@
 		F2C53FC52F057D9500BAAEFC = {
 			isa = PBXGroup;
 			children = (
+				F2C541962F059DEA00BAAEFC /* Gentera-Foundation.podspec */,
 				F2C53FD12F057D9500BAAEFC /* Gentera-Foundation */,
 				F2C53FDE2F057D9500BAAEFC /* Gentera-FoundationTests */,
 				F2C53FD02F057D9500BAAEFC /* Products */,
+				F2C540C42F059D2900BAAEFC /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C541972F059DEA00BAAEFC /* Gentera-Foundation.podspec in Resources */,
+				F2C540C52F059D2900BAAEFC /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
